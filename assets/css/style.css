@@ -1,3 +1,5 @@
+/* removing "." for class since header is now semantic tag in html */
+/* adjusted for sematic CSS by changing tags and organized elements logically. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +9,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* removing "." for class since header is now semantic tag in html */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,31 +28,20 @@ h1 .seo {
 
 nav {
     padding-top: 15px;
+    padding-right: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
+    list-style-type: none;
+    margin-left: 65px;
+    display:inline-block;
+    font-size: larger;
 }
 
 .hero {
@@ -62,6 +53,30 @@ p {
     background-position: center;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+content {
+    margin-bottom: 40px;
+    padding: 50px;
+    align-self: baseline;
+    height: 335px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: inline-block;
+} 
+content img {
+    max-height: 200px;
+}
+
+p {
+    font-size: 18px;
+    width:80%;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,81 +87,59 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    width: 60%;
 }
 
 aside {
     margin-right: 20px;
+    margin-bottom: 30px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; 
 }
-/* consolidated benefit classes into article moved article */
+/* consolidated benefit classes into class="benefits", article moved to logical location with benefits */
 article{
     margin-bottom: 32px;
     color: #ffffff;
+    margin-left: 10%;
+    
 }
+/*kept class benefits to consolidate article imgs */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
 /* grouped all h3 together to save space */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/* changed to semantic tags and adjusted margin fior aesthetics */
+footer {
+    
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 35%;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/* ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
 } */
 
-
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -163,25 +156,19 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
+/* 
 .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
+/* consolidated h2 tags */
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -190,15 +177,8 @@ h3 {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
+/* .footer h2 {
     font-size: 20px;
-}
+} */
