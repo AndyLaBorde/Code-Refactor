@@ -31,7 +31,6 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    display: inline-block;
     margin-left: 25px;
 }
 
@@ -88,11 +87,12 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* consolidated benefit classes into article moved article */
+/* consolidated benefit classes into class="benefits", article moved to logical location with benefits */
 article{
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*  */
 .benefits img {
     display: block;
     margin: 10px auto;
