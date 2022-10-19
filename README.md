@@ -1,7 +1,7 @@
 # M1-Challenge
 ## Module 1 Challenge - Code Refactor
 
-This challenge was designed to challenge bootcamp students to update the HTML and CSS files to semantic HTML and CSS while still maintaining original format of the website.
+This challenge was designed to force bootcamp students to update the HTML and CSS files to semantic HTML and CSS while still maintaining original format of the website.
 
 ## User Story
 
