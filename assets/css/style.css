@@ -62,8 +62,9 @@ main {
 content {
     margin-bottom: 40px;
     padding: 50px;
+    padding-bottom: 54px;
     align-self: baseline;
-    height: 335px;
+    height: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -96,7 +97,8 @@ h2 {
 aside {
     margin-right: 20px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding-top: 10px;
+    /* padding: 20px; */
     clear: both;
     float: right;
     width: 20%;
@@ -127,7 +129,7 @@ footer {
     
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 35%;
+    margin-left: 37%;
 }
 
 /* ul {
