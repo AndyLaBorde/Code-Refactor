@@ -59,7 +59,7 @@ main {
     margin-left: 20px;
 }
 
-content {
+section {
     margin-bottom: 40px;
     padding: 50px;
     padding-bottom: 54px;
@@ -70,11 +70,11 @@ content {
     color: #ffffff;
     display: inline-block;
 } 
-content img {
+section img {
     max-height: 200px;
 }
 
-p {
+.main-p {
     font-size: 18px;
     width:80%;
 }
@@ -95,7 +95,8 @@ h2 {
 }
 
 aside {
-    margin-right: 20px;
+    
+    margin-right: 10px;
     margin-bottom: 30px;
     padding-top: 10px;
     /* padding: 20px; */
@@ -108,16 +109,21 @@ aside {
 }
 /* consolidated benefit classes into class="benefits", article moved to logical location with benefits */
 article{
-    margin-bottom: 32px;
+    /* margin-bottom: 10%; */
     color: #ffffff;
-    margin-left: 10%;
+    margin: 5%;
     
+}
+.side-p {
+    font-size: 16px;
+    margin: 15% auto;
 }
 /*kept class benefits to consolidate article imgs */
 .benefits img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 2px auto;
+    width: 50%;
+    height:25%;
 }
 /* grouped all h3 together to save space */
 h3 {
